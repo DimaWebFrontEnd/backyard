@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+ */
   /*   @font-face { */
    /*    font-family: 'MyCustomFont'; */ /* Choose a descriptive name for your font */
       /* src: url('./assets/fonts/gilroy-semibold') format('ttf'); */
@@ -12,9 +12,17 @@
 
 /* blur-2xl */ 
 
+/* Overlay+Border+OverlayBlur */
+
+
+/* border-radius: 31px; */
+
+
+
+
 body {
   /* font-family: "MyCustomFont", sans-serif; */
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Archivo", sans-serif; */
   background-color: #EFEFF2;
   width: 100%;
   max-width: 1392px;
