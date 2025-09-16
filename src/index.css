@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+    @font-face {
+      font-family: 'MyCustomFont'; /* Choose a descriptive name for your font */
+      src: url('./assets/fonts/gilroy-semibold') format('ttf');
+      font-weight: normal; /* Specify the weight if needed (e.g., normal, bold, 400, 700) */
+      font-style: normal; /* Specify the style if needed (e.g., normal, italic) */
+      /* You may add other src entries for different formats like TTF or OTF for broader compatibility */
+    }
+
+/* blur-2xl */ 
+
+body {
+  font-family: "MyCustomFont", sans-serif;
+  background-color: #EFEFF2;
+  width: 100%;
+  max-width: 1392px;
+  margin: 0 auto;
+  color: #333333F2;
+  overflow-x: hidden;
+  /* Backyard */
+
+
+color: rgba(51, 51, 51, 0.95);
+
+
+}
+
+.filter {
+  /* filter: invert(100%); */
+  mix-blend-mode: color-dodge;
+  /* transform: rotate(-180deg); */
+}
+
+/* Frame 1410166123 */
+
+/* BG → RS8yUgLBILMyJiyBm5rhESHlRTI.png */
+
+/* position: absolute;
+width: 1278.01px;
+height: 372.32px;
+left: calc(50% - 1278.01px/2 - 1px);
+bottom: 1402.19px;
+
+background: url(.png);
+mix-blend-mode: color-dodge;
+transform: rotate(-180deg);
+ */
+
+
+/**
+* ! Header Nav
+**/
+
+/* position: absolute;
+width: 645.49px;
+height: 376px;
+left: calc(50% - 645.49px/2 + 1px);
+top: 171px;
+
+background: #FFFFFF;
+filter: blur(125.35px); */
+
+/* Frame 1410166122 */
+
+/* Auto layout */
+/* display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 339px;
+
+width: 1392px;
+height: 112px;
+
+
+/* Inside auto layout */
+/* flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0; */
+ 
+
+/**
+* ! Ellipse 3555 
+**/
+
+/* position: absolute;
+width: 645.49px;
+height: 376px;
+left: calc(50% - 645.49px/2 + 1px);
+top: 171px;
+
+background: #FFFFFF;
+filter: blur(125.35px); */
+
+/* Ellipse 3555 */
+
+/* Frame 1410166126 */
+
+/* Frame 1410166127 */
+
+
+
+/* Ellipse 3555 */
+
+
+/* filter: blur(125.35px); */
+
+
