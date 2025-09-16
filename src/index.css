@@ -1,17 +1,20 @@
 @import "tailwindcss";
 
-    @font-face {
-      font-family: 'MyCustomFont'; /* Choose a descriptive name for your font */
-      src: url('./assets/fonts/gilroy-semibold') format('ttf');
-      font-weight: normal; /* Specify the weight if needed (e.g., normal, bold, 400, 700) */
-      font-style: normal; /* Specify the style if needed (e.g., normal, italic) */
-      /* You may add other src entries for different formats like TTF or OTF for broader compatibility */
-    }
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+  /*   @font-face { */
+   /*    font-family: 'MyCustomFont'; */ /* Choose a descriptive name for your font */
+      /* src: url('./assets/fonts/gilroy-semibold') format('ttf'); */
+      /* font-weight: normal; */ /* Specify the weight if needed (e.g., normal, bold, 400, 700) */
+      /* font-style: normal; */ /* Specify the style if needed (e.g., normal, italic) */
+  
+  /*   } */
 
 /* blur-2xl */ 
 
 body {
-  font-family: "MyCustomFont", sans-serif;
+  /* font-family: "MyCustomFont", sans-serif; */
+  font-family: "Archivo", sans-serif;
   background-color: #EFEFF2;
   width: 100%;
   max-width: 1392px;

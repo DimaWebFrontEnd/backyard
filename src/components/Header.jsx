@@ -8,6 +8,7 @@ const Header = () => {
 
   return (
     <header className="flex items-center relative w-full h-[112px]" >
+
       {/* Squares BG */}
       <figure className="absolute -top-27 -left-70 w-[150%] select-none">
          <img className="mix-blend-color-dodge w-full select-none" src={bg_img} alt="Squares Image" />  
@@ -15,7 +16,7 @@ const Header = () => {
       {/* <div className="bg-white absolute top-43 left-1/2 -translate-x-1/2 w-161.25 h-93 radius-50 border-1 rounded-full"></div> */}
 
       {/* Eclipse BG */}
-      <figure className="absolute top-[171px] left-1/2 -translate-x-1/2 w-161 h-93">
+      <figure className="absolute top-[171px] left-1/2 -translate-x-1/2 w-161 h-93 ">
         <img className="block w-full h-full" src={eclipse} alt="Eclipse" />
       </figure>
 
