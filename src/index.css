@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-/* @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
- */
+ 
   /*   @font-face { */
    /*    font-family: 'MyCustomFont'; */ /* Choose a descriptive name for your font */
       /* src: url('./assets/fonts/gilroy-semibold') format('ttf'); */
@@ -22,11 +22,13 @@
 
 body {
   /* font-family: "MyCustomFont", sans-serif; */
-  /* font-family: "Archivo", sans-serif; */
+  font-family: "Archivo", sans-serif;
   background-color: #EFEFF2;
   width: 100%;
-  max-width: 1392px;
+  max-width: 1412px;
+  padding-inline: 10px;
   margin: 0 auto;
+  /* padding-inline: 60px; */
   color: #333333F2;
   overflow-x: hidden;
   /* Backyard */
@@ -43,79 +45,22 @@ color: rgba(51, 51, 51, 0.95);
   /* transform: rotate(-180deg); */
 }
 
-/* Frame 1410166123 */
-
-/* BG → RS8yUgLBILMyJiyBm5rhESHlRTI.png */
-
-/* position: absolute;
-width: 1278.01px;
-height: 372.32px;
-left: calc(50% - 1278.01px/2 - 1px);
-bottom: 1402.19px;
-
-background: url(.png);
-mix-blend-mode: color-dodge;
-transform: rotate(-180deg);
- */
 
 
-/**
-* ! Header Nav
-**/
+/* Connect */
 
 /* position: absolute;
-width: 645.49px;
-height: 376px;
-left: calc(50% - 645.49px/2 + 1px);
-top: 171px;
+width: 47px;
+height: 14px;
+left: calc(50% - 47px/2 + 1px);
+top: 9px;
 
-background: #FFFFFF;
-filter: blur(125.35px); */
+font-family: 'Konnect';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 14px;
+text-align: center;
 
-/* Frame 1410166122 */
-
-/* Auto layout */
-/* display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 339px;
-
-width: 1392px;
-height: 112px;
-
-
-/* Inside auto layout */
-/* flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0; */
- 
-
-/**
-* ! Ellipse 3555 
-**/
-
-/* position: absolute;
-width: 645.49px;
-height: 376px;
-left: calc(50% - 645.49px/2 + 1px);
-top: 171px;
-
-background: #FFFFFF;
-filter: blur(125.35px); */
-
-/* Ellipse 3555 */
-
-/* Frame 1410166126 */
-
-/* Frame 1410166127 */
-
-
-
-/* Ellipse 3555 */
-
-
-/* filter: blur(125.35px); */
-
+color: #FBFBFC; */
 
