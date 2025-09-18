@@ -1,7 +1,7 @@
 import big_logo from "../assets/bigger_logo.svg";
 import arrow from "../assets/arrow.png"
 
-const Heading = () => {
+const Hero = () => {
   return (
     <section className="flex flex-col justify-between mt-0 h-full z-3 sm:mt-20 lg:h-102 xl:h-121"> {/* h-151.75  sm:h-71.25 */}
 
@@ -27,7 +27,7 @@ const Heading = () => {
       </div>
 
       {/* Buttons Container */}
-      <div className="flex justify-between max-w-140 mt-7.5">
+      <div className="flex justify-between max-w-140 mt-7.5 saturate-100">
          <button className="bg-[#2D2D2D] text-[#F7F7F7] text-4 w-1/2 h-14 mr-2.5 rounded-4xl cursor-pointer sm:w-83 ">Join Whitelist</button>
          <button className="hidden items-center justify-center relative bg-[#E6E8EC] w-1/2 h-14 rounded-4xl cursor-pointer sm:w-52 sm:flex">
             Read Docs 
@@ -43,4 +43,4 @@ const Heading = () => {
   )
 }
 
-export default Heading
+export default Hero

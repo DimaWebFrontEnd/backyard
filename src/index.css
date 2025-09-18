@@ -3,11 +3,10 @@
 
  
 @theme {
-  --breakpoint-xs: 30rem;
-  --breakpoint-s: 31.25rem;
-  --breakpoint-lg: 69rem;
-  --breakpoint-2xl: 100rem;
-  --breakpoint-3xl: 120rem;
+  --breakpoint-xs: 25rem;     /* 400px */
+  --breakpoint-s: 31.25rem;   /* 500px */
+  --breakpoint-l: 56.25rem;   /* 900px */
+  --breakpoint-lg: 69rem;     /* 1104px */
 }
 
   /*   @font-face { */
@@ -26,7 +25,9 @@
 /* border-radius: 31px; */
 
 
-
+html {
+  overflow-x: hidden;
+}
 
 body {
   /* font-family: "MyCustomFont", sans-serif; */

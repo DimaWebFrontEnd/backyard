@@ -10,14 +10,18 @@ const Header = () => {
     <header className="flex items-center relative w-full h-[112px]" >
 
       {/* Squares BG */}
-      <figure className="absolute -top-27 -left-70 w-[141%] select-none">
-         <img className="mix-blend-color-dodge w-full select-none" src={bg_img} alt="Squares Image" />  
+      <figure className="absolute -top-38 -left-110 rotate-90 w-300 h-[380%] select-none mix-blend-color-dodge xs:-left-80 s:rotate-none s:-left-70 s:-top-27 s:w-[180%] md:w-[160%] l:w-[141%]">
+         <img className=" w-full select-none" src={bg_img} alt="Squares Image" />  
       </figure>  
 
       {/* Eclipse BG */}
-      <figure className="absolute top-[171px] left-1/2 -translate-x-1/2 w-161 h-93 ">
+     { <figure className="absolute top-[271px] left-1/2 -translate-x-1/2 w-161 h-93 s:top-[171px]">
         <img className="block w-full h-full" src={eclipse} alt="Eclipse" />
-      </figure>
+      </figure>}
+
+     { <figure className="block absolute -top-20 left-0  w-[140%] h-93 s:hidden">
+        <img className="block w-full h-full" src={eclipse} alt="Eclipse" />
+      </figure>}
 
       {/* Header Logo/Nav Container */}
       <section className="flex items-center justify-between w-full z-2  md:justify-center">
