@@ -2,6 +2,14 @@
 @import "tailwindcss";
 
  
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-s: 31.25rem;
+  --breakpoint-lg: 69rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+}
+
   /*   @font-face { */
    /*    font-family: 'MyCustomFont'; */ /* Choose a descriptive name for your font */
       /* src: url('./assets/fonts/gilroy-semibold') format('ttf'); */
@@ -45,7 +53,11 @@ color: rgba(51, 51, 51, 0.95);
   /* transform: rotate(-180deg); */
 }
 
-
+@media screen and (max-width: 640px) {
+  body {
+    padding-inline: 25px;
+  }
+}
 
 /* Connect */
 
