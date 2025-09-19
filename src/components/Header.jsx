@@ -28,7 +28,7 @@ const Header = () => {
       <section className="flex items-center justify-between w-full z-2  md:justify-center">
 
         {/* Logo Container */}
-        <section className="static left-0 flex items-center h-11 px-[11px] md:absolute">
+        <section className="static left-0 flex items-center h-11 pl-[11px] md:absolute">
           <figure className="w-33 ">
             <img className="w-full" src={logo} alt="Logo" />
           </figure>
