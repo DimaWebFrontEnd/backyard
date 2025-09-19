@@ -1,11 +1,13 @@
 import gen1 from "../assets/Gen1.png"
 import gen2 from "../assets/Gen2.png"
 import gen3 from "../assets/Gen3.png"
+import gen1_video from "../assets/Gen_animate.mp4"
 
 const Cards = () => {
     const cardsContent = [
       {
          id: "card1",
+         video: gen1_video,
          img: gen1,
          heading: "Yield Aggregator",
          headingAbout: "One-click yield aggregation",
@@ -13,6 +15,7 @@ const Cards = () => {
       },
       {
          id: "card2",
+         video: gen1_video,
          img: gen2,
          heading: "Yield-backed Stablecoin",
          headingAbout: "Unlock liquidity with BYD",
@@ -20,6 +23,7 @@ const Cards = () => {
       },
       {
          id: "card3",
+         video: gen1_video,
          img: gen3,
          heading: "Boost DeFi Liquidity",
          headingAbout: "Boost protocols, earn more",
@@ -29,14 +33,22 @@ const Cards = () => {
 
    const createCards = cardsContent.map((card, index) => {
       const { id, img, heading, headingAbout, about } = card;
-      //const margin = index === 1 ? "mx-2.5" : null;
-      //const cardsClasses = `flex flex-col items-center {{margin}} w-full max-w-78.75 md:max-w-97 lg:max-w-82.5 xl:max-w-85`
+      const margin = index === 2 ? "lg:-mb-6" : "lg:-mb-5";
+      const eachCardWidth = index === 0 ? "lg:max-w-77.5 xl:max-w-85" : index === 1 ? "lg:max-w-82.5 xl:max-w-90.25" : "lg:max-w-78.5 xl:max-w-87.25"
       return (
-            <div key={id} className="flex flex-col items-center justify-between min-w-full cursor-pointer sm:flex-row-reverse sm:mt-11 lg:flex-col lg:min-w-0 lg:w-full lg:max-w-77.5 xl:max-w-85" > {/* w-full max-w-78.75 md:max-w-97 lg:flex-col lg:max-w-82.5 xl:max-w-85 */}
+            <div key={id} className={`
+            flex flex-col items-center justify-between min-w-full cursor-pointer 
+            sm:flex-row-reverse sm:mt-11 
+            lg:flex-col lg:min-w-0 lg:w-full ${eachCardWidth}
+            `} > {/* w-full max-w-78.75 md:max-w-97 lg:flex-col lg:max-w-82.5 xl:max-w-85 */}
 
-               <figure className="min-w-44.75 max-w-44.75 -mb-5 sm:min-w-61.25 sm:max-w-61.25 sm:my-0 lg:-mb-5 lg:min-w-44.75 lg:max-w-44.75">
+               <figure className={`min-w-44.75 max-w-44.75 -mb-5 sm:min-w-61.25 sm:max-w-61.25 sm:my-0 sm:mb-10 ${margin} lg:min-w-44.75 lg:max-w-44.75`}>
                   <img className="min-w-full" src={img} alt={heading} />
                </figure>
+
+               {/* <video autoPlay loop controls={true}>
+                  <source  src={card.video} />
+               </video> */}
 
                <div  className="w-full md:max-w-97 l:max-w-130">
                   <div className="relative flex justify-center items-center bg-[#F4F6F7] h-14 w-full rounded-full">
@@ -48,11 +60,11 @@ const Cards = () => {
                      </h4>
                   </div>
 
-                  <div className="flex flex-col justify-center bg-[#F4F6F7] w-full p-7 mt-4 rounded-4xl"> 
+                  <div className="flex flex-col justify-center bg-[#F4F6F7] w-full h-35.25  p-7 mt-4 rounded-4xl"> 
                      <h4 className="font-extrabold text-lg">
                         <span className="whitespace-nowrap">{headingAbout}</span>
                      </h4>
-                     <p className="text-sm size-fit max-w-65 mt-2">
+                     <p className="text-sm size-fit max-w-74.75 mt-2 xl:text-base">
                         {about}
                      </p>
                   </div>
